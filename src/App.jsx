@@ -7,6 +7,7 @@ import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
 import Footer from "./components/Footer/Footer";
 import LoginPop from "./components/LoginPopup/LoginPop";
 import Joke from "./pages/JokesApart/Joke";
+import ScrollToTopBtn from "./components/scrollToTop/ScrollToTopBtn";
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/order" element={<PlaceOrder />} />
           <Route path="/joke" element={<Joke />} />
         </Routes>
+        <ScrollToTopBtn />
       </div>
       <Footer />
     </>
