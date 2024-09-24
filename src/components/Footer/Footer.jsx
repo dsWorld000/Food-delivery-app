@@ -10,9 +10,7 @@ const Footer = () => {
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            fugiat doloremque, accusantium rerum illo atque culpa possimus
-            deleniti quam inventore! Inventore!
+          Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary experties. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time
           </p>
           <div className="footer-social-icons">
             <Link to="https://www.facebook.com/share/b8ne1KfX8MUYczyy/?mibextid=qi2Omg">
